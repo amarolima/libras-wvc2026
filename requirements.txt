@@ -1,0 +1,11 @@
+# Versões usadas no artigo (Python 3.12).
+tensorflow[and-cuda]==2.16.1
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.0
+matplotlib==3.11.1
+jupyterlab
+jupytext

@@ -1,0 +1,47 @@
+{
+  "5_classes|MLP vs C2_protocolo": {
+    "p mín.": "7.80e-01",
+    "p máx.": "1.00e+00",
+    "sementes com p<0,05": 0
+  },
+  "5_classes|MLP vs C3_finetuning": {
+    "p mín.": "3.73e-09",
+    "p máx.": "6.62e-05",
+    "sementes com p<0,05": 5
+  },
+  "5_classes|C2_protocolo vs C3_finetuning": {
+    "p mín.": "1.49e-08",
+    "p máx.": "4.65e-06",
+    "sementes com p<0,05": 5
+  },
+  "6_classes|MLP vs C2_protocolo": {
+    "p mín.": "2.82e-01",
+    "p máx.": "9.11e-01",
+    "sementes com p<0,05": 0
+  },
+  "6_classes|MLP vs C3_finetuning": {
+    "p mín.": "5.91e-12",
+    "p máx.": "1.24e-06",
+    "sementes com p<0,05": 5
+  },
+  "6_classes|C2_protocolo vs C3_finetuning": {
+    "p mín.": "8.36e-12",
+    "p máx.": "7.60e-09",
+    "sementes com p<0,05": 5
+  },
+  "10_classes|MLP vs C2_protocolo": {
+    "p mín.": "2.87e-06",
+    "p máx.": "1.09e-03",
+    "sementes com p<0,05": 5
+  },
+  "10_classes|MLP vs C3_finetuning": {
+    "p mín.": "1.39e-11",
+    "p máx.": "1.35e-08",
+    "sementes com p<0,05": 5
+  },
+  "10_classes|C2_protocolo vs C3_finetuning": {
+    "p mín.": "4.63e-29",
+    "p máx.": "1.25e-23",
+    "sementes com p<0,05": 5
+  }
+}

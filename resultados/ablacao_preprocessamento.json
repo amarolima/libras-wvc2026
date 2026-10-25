@@ -1,0 +1,1006 @@
+{
+  "A_atual": {
+    "descricao": "resize 640x480 (distorce proporcao) + blur 5x5 -- pipeline do artigo",
+    "parametros": {
+      "resize": [
+        640,
+        480
+      ],
+      "blur": true,
+      "conf": 0.5,
+      "recorta_bbox": false
+    },
+    "total": 440,
+    "detectado": 348,
+    "taxa_global": 0.7909090909090909,
+    "ic95_global": [
+      0.7504742916402912,
+      0.8263080559359611
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 154,
+        "taxa": 0.77,
+        "ic95": [
+          0.7069157192180299,
+          0.8229074375860769
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 183,
+        "taxa": 0.7625,
+        "ic95": [
+          0.704790736078522,
+          0.8119381567765115
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 319,
+        "taxa": 0.7975,
+        "ic95": [
+          0.7553731579625759,
+          0.8339668208806142
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 98,
+        "taxa": 0.8909090909090909
+      },
+      "front": {
+        "total": 110,
+        "detectado": 95,
+        "taxa": 0.8636363636363636
+      },
+      "left": {
+        "total": 110,
+        "detectado": 69,
+        "taxa": 0.6272727272727273
+      },
+      "right": {
+        "total": 110,
+        "detectado": 86,
+        "taxa": 0.7818181818181819
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 29,
+        "taxa": 0.725
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 27,
+        "taxa": 0.675
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 26,
+        "taxa": 0.65
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 30,
+        "taxa": 0.75
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 34,
+        "taxa": 0.85
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      }
+    },
+    "segundos": 12.144753694534302
+  },
+  "B_proporcao": {
+    "descricao": "500x500 nativo + blur 5x5 -- isola o efeito do resize",
+    "parametros": {
+      "resize": null,
+      "blur": true,
+      "conf": 0.5,
+      "recorta_bbox": false
+    },
+    "total": 440,
+    "detectado": 371,
+    "taxa_global": 0.8431818181818181,
+    "ic95_global": [
+      0.8062513967821854,
+      0.8741715288741747
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 165,
+        "taxa": 0.825,
+        "ic95": [
+          0.7663545078991807,
+          0.8713955882539106
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 196,
+        "taxa": 0.8166666666666667,
+        "ic95": [
+          0.7628547322566349,
+          0.860500757536739
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 340,
+        "taxa": 0.85,
+        "ic95": [
+          0.8116856255682138,
+          0.8816555260120097
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 96,
+        "taxa": 0.8727272727272727
+      },
+      "front": {
+        "total": 110,
+        "detectado": 104,
+        "taxa": 0.9454545454545454
+      },
+      "left": {
+        "total": 110,
+        "detectado": 84,
+        "taxa": 0.7636363636363637
+      },
+      "right": {
+        "total": 110,
+        "detectado": 87,
+        "taxa": 0.7909090909090909
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 38,
+        "taxa": 0.95
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 30,
+        "taxa": 0.75
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 34,
+        "taxa": 0.85
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 34,
+        "taxa": 0.85
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 34,
+        "taxa": 0.85
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 36,
+        "taxa": 0.9
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      }
+    },
+    "segundos": 12.950726985931396
+  },
+  "C_sem_blur": {
+    "descricao": "500x500 nativo, sem blur -- isola o efeito do blur",
+    "parametros": {
+      "resize": null,
+      "blur": false,
+      "conf": 0.5,
+      "recorta_bbox": false
+    },
+    "total": 440,
+    "detectado": 343,
+    "taxa_global": 0.7795454545454545,
+    "ic95_global": [
+      0.7384824979261753,
+      0.8157692891978798
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 149,
+        "taxa": 0.745,
+        "ic95": [
+          0.6803694869280502,
+          0.8003959701719726
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 179,
+        "taxa": 0.7458333333333333,
+        "ic95": [
+          0.6871742693124719,
+          0.7967464398692264
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 313,
+        "taxa": 0.7825,
+        "ic95": [
+          0.7394863393745473,
+          0.820139018686633
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 90,
+        "taxa": 0.8181818181818182
+      },
+      "front": {
+        "total": 110,
+        "detectado": 96,
+        "taxa": 0.8727272727272727
+      },
+      "left": {
+        "total": 110,
+        "detectado": 76,
+        "taxa": 0.6909090909090909
+      },
+      "right": {
+        "total": 110,
+        "detectado": 81,
+        "taxa": 0.7363636363636363
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 27,
+        "taxa": 0.675
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 30,
+        "taxa": 0.75
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 28,
+        "taxa": 0.7
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 32,
+        "taxa": 0.8
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 29,
+        "taxa": 0.725
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 32,
+        "taxa": 0.8
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 30,
+        "taxa": 0.75
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 32,
+        "taxa": 0.8
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      }
+    },
+    "segundos": 12.482112407684326
+  },
+  "D_conf030": {
+    "descricao": "C com min_detection_confidence=0.30",
+    "parametros": {
+      "resize": null,
+      "blur": false,
+      "conf": 0.3,
+      "recorta_bbox": false
+    },
+    "total": 440,
+    "detectado": 362,
+    "taxa_global": 0.8227272727272728,
+    "ic95_global": [
+      0.7842946693882628,
+      0.8555732474541423
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 162,
+        "taxa": 0.81,
+        "ic95": [
+          0.7499864142552062,
+          0.8583290620754351
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 194,
+        "taxa": 0.8083333333333333,
+        "ic95": [
+          0.7538324872699528,
+          0.8531189106867535
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 330,
+        "taxa": 0.825,
+        "ic95": [
+          0.7847204162241496,
+          0.859096367386058
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 92,
+        "taxa": 0.8363636363636363
+      },
+      "front": {
+        "total": 110,
+        "detectado": 101,
+        "taxa": 0.9181818181818182
+      },
+      "left": {
+        "total": 110,
+        "detectado": 81,
+        "taxa": 0.7363636363636363
+      },
+      "right": {
+        "total": 110,
+        "detectado": 88,
+        "taxa": 0.8
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 28,
+        "taxa": 0.7
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 32,
+        "taxa": 0.8
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 30,
+        "taxa": 0.75
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      }
+    },
+    "segundos": 12.11901593208313
+  },
+  "D_conf070": {
+    "descricao": "C com min_detection_confidence=0.70",
+    "parametros": {
+      "resize": null,
+      "blur": false,
+      "conf": 0.7,
+      "recorta_bbox": false
+    },
+    "total": 440,
+    "detectado": 312,
+    "taxa_global": 0.7090909090909091,
+    "ic95_global": [
+      0.664988043884213,
+      0.7495742684362184
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 136,
+        "taxa": 0.68,
+        "ic95": [
+          0.612479733946457,
+          0.7407357039229475
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 164,
+        "taxa": 0.6833333333333333,
+        "ic95": [
+          0.6219861447223709,
+          0.7389038756843194
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 284,
+        "taxa": 0.71,
+        "ic95": [
+          0.6637006149990706,
+          0.7523040759490635
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 81,
+        "taxa": 0.7363636363636363
+      },
+      "front": {
+        "total": 110,
+        "detectado": 92,
+        "taxa": 0.8363636363636363
+      },
+      "left": {
+        "total": 110,
+        "detectado": 67,
+        "taxa": 0.6090909090909091
+      },
+      "right": {
+        "total": 110,
+        "detectado": 72,
+        "taxa": 0.6545454545454545
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 25,
+        "taxa": 0.625
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 28,
+        "taxa": 0.7
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 27,
+        "taxa": 0.675
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 28,
+        "taxa": 0.7
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 23,
+        "taxa": 0.575
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 30,
+        "taxa": 0.75
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 25,
+        "taxa": 0.625
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 29,
+        "taxa": 0.725
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      }
+    },
+    "segundos": 11.611899614334106
+  },
+  "E_bbox": {
+    "descricao": "C + recorte pelo bbox do COCO com margem de 10%",
+    "parametros": {
+      "resize": null,
+      "blur": false,
+      "conf": 0.5,
+      "recorta_bbox": true
+    },
+    "total": 440,
+    "detectado": 315,
+    "taxa_global": 0.7159090909090909,
+    "ic95_global": [
+      0.6720421860763898,
+      0.7560384625153601
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 133,
+        "taxa": 0.665,
+        "ic95": [
+          0.5970206277343806,
+          0.7267601903125736
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 151,
+        "taxa": 0.6291666666666667,
+        "ic95": [
+          0.5664694075732353,
+          0.6877940158951146
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 297,
+        "taxa": 0.7425,
+        "ic95": [
+          0.6974839488186009,
+          0.7829024204905541
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 89,
+        "taxa": 0.8090909090909091
+      },
+      "front": {
+        "total": 110,
+        "detectado": 88,
+        "taxa": 0.8
+      },
+      "left": {
+        "total": 110,
+        "detectado": 71,
+        "taxa": 0.6454545454545455
+      },
+      "right": {
+        "total": 110,
+        "detectado": 67,
+        "taxa": 0.6090909090909091
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 32,
+        "taxa": 0.8
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 27,
+        "taxa": 0.675
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 18,
+        "taxa": 0.45
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 19,
+        "taxa": 0.475
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 30,
+        "taxa": 0.75
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 34,
+        "taxa": 0.85
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 34,
+        "taxa": 0.85
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 22,
+        "taxa": 0.55
+      }
+    },
+    "segundos": 12.046662330627441
+  },
+  "F_melhor": {
+    "descricao": "B + min_detection_confidence=0.30 -- melhor combinacao esperada",
+    "parametros": {
+      "resize": null,
+      "blur": true,
+      "conf": 0.3,
+      "recorta_bbox": false
+    },
+    "total": 440,
+    "detectado": 395,
+    "taxa_global": 0.8977272727272727,
+    "ic95_global": [
+      0.865885451442512,
+      0.9226841643843955
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 176,
+        "taxa": 0.88,
+        "ic95": [
+          0.8276563857409517,
+          0.9180206497611246
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 213,
+        "taxa": 0.8875,
+        "ic95": [
+          0.841267131076257,
+          0.9215231393287928
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 358,
+        "taxa": 0.895,
+        "ic95": [
+          0.861108321155689,
+          0.9213766927705632
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 101,
+        "taxa": 0.9181818181818182
+      },
+      "front": {
+        "total": 110,
+        "detectado": 106,
+        "taxa": 0.9636363636363636
+      },
+      "left": {
+        "total": 110,
+        "detectado": 92,
+        "taxa": 0.8363636363636363
+      },
+      "right": {
+        "total": 110,
+        "detectado": 96,
+        "taxa": 0.8727272727272727
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 39,
+        "taxa": 0.975
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 34,
+        "taxa": 0.85
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 36,
+        "taxa": 0.9
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 36,
+        "taxa": 0.9
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 38,
+        "taxa": 0.95
+      }
+    },
+    "segundos": 12.916218519210815
+  },
+  "G_bbox_larga": {
+    "descricao": "recorte pelo bbox com margem de 50% + blur -- testa se o dano do recorte e por falta de contexto",
+    "parametros": {
+      "resize": null,
+      "blur": true,
+      "conf": 0.5,
+      "recorta_bbox": true,
+      "margem": 0.5
+    },
+    "total": 440,
+    "detectado": 386,
+    "taxa_global": 0.8772727272727273,
+    "ic95_global": [
+      0.8433064454043401,
+      0.9047081616086124
+    ],
+    "por_cenario": {
+      "5_classes": {
+        "total": 200,
+        "detectado": 173,
+        "taxa": 0.865,
+        "ic95": [
+          0.8107074954488287,
+          0.9055349202307972
+        ]
+      },
+      "6_classes": {
+        "total": 240,
+        "detectado": 206,
+        "taxa": 0.8583333333333333,
+        "ic95": [
+          0.808556667305257,
+          0.8968192816714556
+        ]
+      },
+      "10_classes": {
+        "total": 400,
+        "detectado": 353,
+        "taxa": 0.8825,
+        "ic95": [
+          0.847244320271723,
+          0.9104785096695212
+        ]
+      }
+    },
+    "por_orientacao": {
+      "back": {
+        "total": 110,
+        "detectado": 97,
+        "taxa": 0.8818181818181818
+      },
+      "front": {
+        "total": 110,
+        "detectado": 104,
+        "taxa": 0.9454545454545454
+      },
+      "left": {
+        "total": 110,
+        "detectado": 93,
+        "taxa": 0.8454545454545455
+      },
+      "right": {
+        "total": 110,
+        "detectado": 92,
+        "taxa": 0.8363636363636363
+      }
+    },
+    "por_classe": {
+      "S10e": {
+        "total": 40,
+        "detectado": 39,
+        "taxa": 0.975
+      },
+      "S15a": {
+        "total": 40,
+        "detectado": 31,
+        "taxa": 0.775
+      },
+      "S177": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S185": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S192": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      },
+      "S19a": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S19c": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S1a3": {
+        "total": 40,
+        "detectado": 33,
+        "taxa": 0.825
+      },
+      "S1ce": {
+        "total": 40,
+        "detectado": 36,
+        "taxa": 0.9
+      },
+      "S1de": {
+        "total": 40,
+        "detectado": 37,
+        "taxa": 0.925
+      },
+      "S203": {
+        "total": 40,
+        "detectado": 35,
+        "taxa": 0.875
+      }
+    },
+    "segundos": 11.993924140930176
+  }
+}

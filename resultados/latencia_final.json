@@ -1,0 +1,15 @@
+{
+  "classificador_puro_ms": {
+    "mlp_media": 0.21647008486070263,
+    "mlp_std": 0.022475024746329803,
+    "resnet50_media": 6.398960010101291,
+    "resnet50_std": 0.4348140967272877,
+    "razao_resnet50_sobre_mlp": 29.56048182925132
+  },
+  "pipeline_completo_ms": {
+    "mlp_media": 24.503502216612105,
+    "mlp_std": 0.7628580537274793,
+    "resnet50_media": 10.790883466688683,
+    "resnet50_std": 0.6530252047673962
+  }
+}
